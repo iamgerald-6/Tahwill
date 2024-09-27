@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-gradient {
+  border-image: linear-gradient(to right, #e7b73c, #b5686d, #83199e) 1;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 3px;
+}
+
+.gradient-shadow {
+  position: relative;
+}
+
+.gradient-shadow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(to right, #e7b73c, #b5686d, #83199e);
+  filter: blur(10px);
+}
