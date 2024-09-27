@@ -1,4 +1,4 @@
-import AboutImage from "@assets/aboutImage.svg";
+import AboutImage from "@/public/assets/aboutImage.svg";
 const About = () => {
   return (
     <div className="flex justify-center items-center min-h-[100dvh]">

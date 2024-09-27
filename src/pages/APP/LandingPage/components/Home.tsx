@@ -1,5 +1,5 @@
 import { Button } from "@/src/components/Button";
-import Frame from "@assets/Frame 10.svg";
+import Frame from "@/public/assets/Frame 10.svg";
 const Home = () => {
   return (
     <div className="bg-BannerImage bg-cover bg-center min-h-[100dvh] ">

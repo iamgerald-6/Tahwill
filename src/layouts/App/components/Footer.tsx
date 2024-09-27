@@ -1,8 +1,8 @@
-import Logo from "@assets/tahwil logo.svg";
-import LinkedIn from "@assets/icons/linkedin (1).svg";
-import Whats from "@assets/icons/social.svg";
-import Face from "@assets/icons/facebook (3).svg";
-import Insta from "@assets/icons/social (1).svg";
+import Logo from "@/public/assets/tahwil logo.svg";
+import LinkedIn from "@/public/assets/icons/linkedin (1).svg";
+import Whats from "@/public/assets/icons/social.svg";
+import Face from "@/public/assets/icons/facebook (3).svg";
+import Insta from "@/public/assets/icons/social (1).svg";
 const Footer = () => {
   return (
     <div>

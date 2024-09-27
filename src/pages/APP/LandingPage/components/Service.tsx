@@ -1,4 +1,4 @@
-import ServiceImage from "@assets/Service.svg";
+import ServiceImage from "@/public/assets/Service.svg";
 const Service = () => {
   return (
     <div className="bg-secondary-100 mt-10 py-10 rounded-t-[20px] min-h-[100dvh] text-white">

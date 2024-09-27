@@ -1,4 +1,4 @@
-import Logo from "@assets/tahwil logo.svg";
+import Logo from "@/public/assets/tahwil logo.svg";
 const Navbar = () => {
   const navData = [
     { id: 1, name: "Home" },
