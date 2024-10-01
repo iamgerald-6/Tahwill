@@ -18,7 +18,7 @@ export default {
         // prettier-ignore
         "BannerImage": "url('/assets/Banner.svg')",
         // prettier-ignore
-        "BannerFrame": "url('src/assets/Frame 10.svg')",
+        "BannerFrame": "url('/assets/Frame 10.svg')",
       },
     },
   },
